@@ -1,0 +1,33 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCPedroza/express-passport-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCPedroza/express-passport-login/issues"
+  },
+  "homepage": "https://github.com/JCPedroza/express-passport-login#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "jest": "^27.4.7",
+    "jsdoc": "^3.6.10",
+    "standard": "^16.0.4"
+  }
+}
